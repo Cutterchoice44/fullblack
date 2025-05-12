@@ -9,7 +9,7 @@
 
 :root {
   --brand-teal: #5A8785;
-  --bg-dark:   #111;
+  --bg-dark:   #000;
   --text-light: #fafafa;
 
   /* ─── Adjustable GIF Settings ─── */
@@ -669,7 +669,15 @@ section h2::after {
   color: #5A8785;
   text-decoration: #5A8785;
 }
-
+  /* 2) Reduce header GIF area */
+  .header-banner {
+    height: 50px !important;
+  }
+  .header-gif-right,
+  .header-gif-left {
+    height: 100px !important;
+    width: var(--gif-width) !important;
+  }
 
 
 
